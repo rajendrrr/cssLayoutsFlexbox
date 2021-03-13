@@ -1,0 +1,13 @@
+.flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col {
+    flex: 1;
+  }
+
+  @media (max-width: 400px) {
+    .flex-grid {
+      flex-flow: column;
+    }
+  }
