@@ -1,0 +1,23 @@
+.flexbox-container {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.flexbox-container > div {
+	width: 47%;
+	padding: 10px;
+}
+
+.flexbox-container > div:first-child {
+	margin-right: 20px;
+}
+.left{
+    border : 2px solid black;
+    height: 500px;
+}
+.right{
+    border: 2px solid black;
+    height: 500px;
+}
