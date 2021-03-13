@@ -1,0 +1,12 @@
+.breadcrumb ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .breadcrumb li::before {
+    content: "  /  ";
+  }
+    
+  .breadcrumb li:first-child::before {
+    content: "";
+  }
