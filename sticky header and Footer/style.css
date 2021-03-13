@@ -1,0 +1,25 @@
+html, body {
+    margin:0;
+    height:100%;
+    min-height:100%;
+  }
+  body {
+    margin:0;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    flex: 1 0 0%;
+    background:red;
+  }
+  .content {
+      flex: auto;
+      overflow-y: auto;
+  }
+  article {
+      background:green;
+  }
+  footer {
+      height: 40px;
+      background:blue;
+  }
